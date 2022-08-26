@@ -1,7 +1,7 @@
 package com.demo.virtual_power_plant.exception;
 
 import com.demo.virtual_power_plant.enums.ResponseStatus;
-import com.demo.virtual_power_plant.pojo.ApiError;
+import com.demo.virtual_power_plant.pojo.api.ApiError;
 import com.demo.virtual_power_plant.utill.CustomMessageSource;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DataIntegrityViolationException;

@@ -14,19 +14,19 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "vertual_power_plant")
-public class VirtualPowerPlant {
+@Table(name = "battery")
+public class Battery {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "vertual_power_plant_seq_gen")
-    @SequenceGenerator(name = "vertual_power_plant_seq_gen", sequenceName = "seq_vertual_power_plant", initialValue = 1, allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "battery_seq_gen")
+    @SequenceGenerator(name = "battery_seq_gen", sequenceName = "seq_battery", initialValue = 1, allocationSize = 1)
 
     private Long id;
     @Column(name = "name", nullable = false, columnDefinition = "VARCHAR(250)")
     private String name;
 
     @Column(name = "post_code", nullable = false, columnDefinition = "VARCHAR(250)")
-    private String postcode;
+    private int postcode;
 
     @Column(name = "capacity", nullable = false)
     private int capacity;

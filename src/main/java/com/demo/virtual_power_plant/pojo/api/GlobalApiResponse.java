@@ -1,4 +1,4 @@
-package com.demo.virtual_power_plant.pojo;
+package com.demo.virtual_power_plant.pojo.api;
 
 import com.demo.virtual_power_plant.enums.ResponseStatus;
 import lombok.AllArgsConstructor;

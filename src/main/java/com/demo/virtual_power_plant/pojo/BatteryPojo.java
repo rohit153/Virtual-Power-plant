@@ -18,7 +18,7 @@ import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_NULL;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class VirtualPowerPlantPojo {
+public class BatteryPojo {
     @JsonInclude(NON_NULL)
     @JsonProperty("id")
     private Long id;
