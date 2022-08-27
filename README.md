@@ -19,6 +19,21 @@ IDE = any of your favorite  and maven
 
 * [Maven](https://maven.apache.org/) - Dependency Management
 
+
+
+## Swagger documentation
+
+Synchronizes the API documentation with the server and client at the same pace.
+Allows us to generate REST API documentation and interact with the REST API
+Provides responses in the format of JSON .
+
+*API = http://localhost:8080/swagger-ui.html
+
+## Test Class 
+
+Test class in under the  package of test class name is ApplicationTests
+
+
 ## save List of Batteries Rest Api  
 
 

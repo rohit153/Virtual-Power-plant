@@ -1,4 +1,4 @@
-package com.demo.virtual_power_plant.controller.baserestcontroller;
+package com.demo.virtual_power_plant.controller.baseapiconfig;
 
 import com.demo.virtual_power_plant.enums.ResponseStatus;
 import com.demo.virtual_power_plant.pojo.api.GlobalApiResponse;

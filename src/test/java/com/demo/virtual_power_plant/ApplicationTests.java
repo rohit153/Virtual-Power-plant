@@ -46,16 +46,16 @@ class ApplicationTests {
        assertEquals(batteryPojoList,batteryService.save(batteryPojoList));
    }
 
+/*
+   @Test
+    public void getBatteriesUnderpostcode(){
 
-//   @Test
-//    public void getBatteriesUnderpostcode(){
-//
-//       PostCodeRangePojo postCodeRangePojo=new PostCodeRangePojo(6056,6057);
-//       BatteryStasticsPojo batteryStasticsPojo=new BatteryStasticsPojo();
-//       BatteryPojo batteryPojo=new BatteryPojo(1l,"Midland","50500",50500);
-//       batteryStasticsPojo.setBatteryPojos();
-//
-//
-//   }
+       PostCodeRangePojo postCodeRangePojo=new PostCodeRangePojo(6056,6057);
+       BatteryStasticsPojo batteryStasticsPojo=new BatteryStasticsPojo();
+       BatteryPojo batteryPojo=new BatteryPojo(1l,"Midland","50500",50500);
+       batteryStasticsPojo.setBatteryPojos();
+
+
+   }*/
 
 }
