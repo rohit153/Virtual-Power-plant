@@ -16,10 +16,7 @@ public class BaseApiConfig {
 
 
 
-        /**
-         * ObjectMapper instance
-         */
-        public ObjectMapper objectMapper = new ObjectMapper();
+
 
         /**
          * API Success ResponseStatus
@@ -37,26 +34,7 @@ public class BaseApiConfig {
         @Autowired
         protected CustomMessageSource customMessageSource;
 
-        /**
-         * Module Name
-         */
-        protected String moduleName;
-        protected String permissionName;
-        protected String screenName;
 
-        /**
-         * This module is used to fetch the available permissions of current user in particular module
-         */
-        protected String module;
-
-
-        public String getModuleName() {
-            return moduleName;
-        }
-
-        public void setModuleName(String moduleName) {
-            this.moduleName = moduleName;
-        }
 
         /**
          * Function that sends successful API Response
@@ -90,9 +68,6 @@ public class BaseApiConfig {
             return globalApiResponse;
         }
 
-        public String getPermissionName() {
-            return permissionName;
-        }
 
     }
 
