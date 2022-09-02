@@ -27,12 +27,12 @@ public class ApiError {
     @JsonProperty("errors")
     private List<String> errors;
 
-    public ApiError(ResponseStatus status, final int httpCode, final String message, final String error,Date dateTime) {
+    public ApiError(ResponseStatus status, final int httpCode, final String message, final String error, Date dateTime) {
         super();
         this.status = status;
         this.httpCode = httpCode;
         this.message = message;
-        this.dateTime=dateTime;
+        this.dateTime = dateTime;
         errors = Arrays.asList(error);
     }
 }

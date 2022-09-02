@@ -12,6 +12,10 @@ import java.util.stream.Collectors;
  * @author rohit.tamang
  * @Created 8/26/2022
  */
+/*
+* generic model mapper which convert pojo class to entity and vice versa dynamically
+*
+* */
 @Component
 public class GenericModelMapper {
 

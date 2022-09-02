@@ -49,7 +49,6 @@ public class GenericException extends ResponseEntityExceptionHandler {
                 Matcher m = p.matcher(s);
                 String constraintName = null;
                 while (m.find()) {
-                    System.out.println(m.group());
                     constraintName = m.group(1);
                 }
 

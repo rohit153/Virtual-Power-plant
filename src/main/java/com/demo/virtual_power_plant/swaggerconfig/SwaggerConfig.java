@@ -14,6 +14,9 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * this is configuration for swagger implementation
+ */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig extends WebMvcConfigurerAdapter  {
@@ -26,7 +29,9 @@ public class SwaggerConfig extends WebMvcConfigurerAdapter  {
                 ;
     }
 
-
+/*
+* method returns ApiInformation on swagger dashboard about the project
+* */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("Virtual Power Plant Api documentation")
                 .description("Virtual Power Plant Api documentation for Developers . This documentation contains the detatils of api that performs some operation ")

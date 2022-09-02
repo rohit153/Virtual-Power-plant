@@ -3,7 +3,6 @@ package com.demo.virtual_power_plant.controller.baseapiconfig;
 import com.demo.virtual_power_plant.enums.ResponseStatus;
 import com.demo.virtual_power_plant.pojo.api.GlobalApiResponse;
 import com.demo.virtual_power_plant.utill.CustomMessageSource;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
@@ -11,11 +10,10 @@ import java.util.Date;
 /**
  * @author rohit.tamang
  * @Created 8/26/2022
+ *
+ *  BaseApiConfiguration  provides the method that return api error and sucess GlobalApiResponse
  */
 public class BaseApiConfig {
-
-
-
 
 
         /**

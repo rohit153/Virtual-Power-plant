@@ -13,6 +13,9 @@ import java.util.Date;
  * @author rohit.tamang
  * @Created 8/26/2022
  */
+
+/*pojo class that is returns after*/
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

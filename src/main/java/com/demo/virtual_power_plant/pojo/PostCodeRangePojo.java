@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
  * @author rohit.tamang
  * @Created 8/26/2022
  */
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

@@ -18,8 +18,16 @@ IDE = any of your favorite  and maven
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
-
-
+## Data Base 
+in-memory data database is use in this project  .ie h2 database
+ dependecy
+  ````
+       <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.193</version>
+        </dependency>
+   ````
 
 ## Swagger documentation
 
@@ -40,29 +48,33 @@ Test class in under the  package of test class name is ApplicationTests
 *  localhost:8080/api/v1/save" - save the batteries list 
 * RequestBody for saving batteries
  ````
- [{
- "name": "Cannington",
- "postcode": "6107",
- "capacity": 13500
- },
- {
- "name": "Midland",
- "postcode": "6057",
- "capacity": 50500
- }]
+[
+    {
+        "name": "Cannington",
+        "postcode": "6107",
+        "capacity": 13500
+    },
+    {
+        "name": "Midland",
+        "postcode": "6057",
+        "capacity": 50500
+    }
+]
  ````
 * validation is only for null values
  ````
- [{
- "name": null,
- "postcode": "6107",
- "capacity": 13500
- },
- {
- "name": "Midland",
- "postcode": "6057",
- "capacity": 50500
- }]
+[
+    {
+        "name": null,
+        "postcode": "6107",
+        "capacity": 13500
+    },
+    {
+        "name": "Midland",
+        "postcode": "6057",
+        "capacity": 50500
+    }
+]
  ````
 
 * Response as

@@ -20,6 +20,11 @@ import java.util.stream.Collectors;
  * @author rohit.tamang
  * @Created 8/26/2022
  */
+
+
+/*
+* it has save and get battries methods implemented
+* */
 @Service
 @Slf4j
 @RequiredArgsConstructor
